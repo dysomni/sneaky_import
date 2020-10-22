@@ -1,0 +1,2 @@
+# describe SneakyImport do
+# end
