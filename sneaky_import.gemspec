@@ -4,19 +4,19 @@ Gem::Specification.new do |spec|
   spec.name          = "sneaky_import"
   spec.version       = SneakyImport::VERSION
   spec.authors       = ["James Brock"]
-  spec.email         = ["contact@james.ooo"]
+  spec.email         = ["contact@dysomni.com"]
 
-  spec.summary       = %q{Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{Write a longer description or delete this line.}
-  spec.homepage      = "https://www.example.com"
+  spec.summary       = %q{Declutter ActiveRecord::Import Logs}
+  spec.description   = %q{This is an extension of activerecord-import that simplifies the massive logs that come along with batch data importing.}
+  spec.homepage      = "https://github.com/dysomni/sneaky_import"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   spec.metadata["allowed_push_host"] = "Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://www.example.com"
-  spec.metadata["changelog_uri"] = "https://www.example.com"
+  spec.metadata["source_code_uri"] = "https://github.com/dysomni/sneaky_import"
+  # spec.metadata["changelog_uri"] = "https://www.example.com"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
