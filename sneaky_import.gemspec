@@ -1,5 +1,4 @@
 require_relative 'lib/sneaky_import/version'
-require 'active_support/inflector'
 
 Gem::Specification.new do |spec|
   spec.name          = "sneaky_import"
@@ -30,5 +29,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "rspec", "~> 3.2"
   spec.add_dependency "activesupport"
-  spec.add_dependency "activerecord-import"
+  spec.add_runtime_dependency "activerecord-import"
 end
