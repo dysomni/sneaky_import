@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.name          = "sneaky_import"
   spec.version       = SneakyImport::VERSION
   spec.authors       = ["James Brock"]
-  spec.email         = ["contact@dysomni.com"]
+  spec.email         = ["code@dysomni.com"]
 
   spec.summary       = %q{Declutter ActiveRecord::Import Logs}
   spec.description   = %q{This is an extension of activerecord-import that simplifies the massive logs that come along with batch data importing.}
@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  spec.metadata["allowed_push_host"] = "Set to 'http://mygemserver.com'"
+  # spec.metadata["allowed_push_host"] = "Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/dysomni/sneaky_import"
