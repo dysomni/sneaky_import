@@ -27,7 +27,7 @@ module SneakyImport
   end
 
   def sneaky_log_error_messages(result)
-    return if results.failed_instances.length.zero?
+    return if result.failed_instances.length.zero?
 
     messages = result.failed_instances.map{|i| i&.errors&.full_messages}
                      .compact.flatten.uniq
