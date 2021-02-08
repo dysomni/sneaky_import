@@ -40,6 +40,12 @@ module SneakyImport
     result
   end
 
+  def sneaky_delete_all
+    result = Rails.logger.silence { all.delete_all }
+    Rails.logger.info "Deleted #{result} #{to_s.pluralize(result)}".colorize(:light_red)
+    result
+  end
+
 end
 
 ActiveRecord::Base.send :extend, SneakyImport
